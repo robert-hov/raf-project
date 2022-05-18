@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.111vw;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  width: 81.25%;
+  margin: 0 auto;
+}

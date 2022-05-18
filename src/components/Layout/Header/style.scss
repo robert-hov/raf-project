@@ -1,0 +1,71 @@
+.header {
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  background-color: orange;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 91.25%;
+  margin: 0 auto;
+}
+
+.header__logo {
+  color: #FFFFFF;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.562rem;
+  line-height: 1.552;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header__popup.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__popup-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  cursor: default;
+
+  background-color: #FFFFFF;
+}
+
+.header__popup-text {
+  font-size: 10px;
+}
+
+.header__popup-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 26px;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
