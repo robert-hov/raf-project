@@ -49,18 +49,34 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer__block footer__block--row">
-                    <div className="footer__icon">
-                        <a href="/">
-                            <img src="facebook.png" />
-                        </a>
-                    </div>
-                    <div className="footer__icon" />
-                    <div className="footer__icon">
-                        <a href="/">
-                            <img src="twitter.png" />
-                        </a>
-                    </div>
-                    <div className="footer__icon" />
+                    <a href='/' className="footer__icon">
+                        <span className="img-container">
+                            <svg className="icon">
+                              <use xlinkHref="#fb"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href='/' className="footer__icon">
+                        <span className="img-container">
+                            <svg className="icon">
+                              <use xlinkHref="#instagram"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href='/' className="footer__icon">
+                        <span className="img-container">
+                            <svg className="icon">
+                              <use xlinkHref="#twitter"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href='/' className="footer__icon">
+                        <span className="img-container">
+                            <svg className="icon">
+                              <use xlinkHref="#linkedin"/>
+                            </svg>
+                        </span>
+                    </a>
                 </div>
             </div>
         </footer>

@@ -15,7 +15,29 @@ body {
   padding: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .page-container {
   width: 81.25%;
   margin: 0 auto;
+}
+
+.img-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img, svg {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
