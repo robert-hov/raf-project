@@ -1,8 +1,11 @@
 import Layout from "./components/Layout";
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <Layout />
+    <Layout>
+      <Homepage />
+    </Layout>
   );
 }
 

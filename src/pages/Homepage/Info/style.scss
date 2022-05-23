@@ -1,0 +1,32 @@
+.info {
+    padding-top: 103px;
+    padding-bottom: 82.5px;
+}
+
+.info__title {
+    margin-bottom: 37.12px;
+
+    font-family: 'Popins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56.25px;
+
+    border: none;
+    color: #222222;
+}
+
+.info__desc {
+    margin-bottom: 53.31px;
+
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    border: none;
+    color: #525252;
+}
+
+.info__image-container {
+    flex-shrink: 0;
+}

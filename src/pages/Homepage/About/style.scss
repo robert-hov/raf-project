@@ -1,0 +1,56 @@
+.about{
+    margin-bottom: 12.562rem;
+}
+.about__page-container{
+    width: 81.25%;
+    margin: 0 auto;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__image-container {
+    width: 50%;
+}
+
+.about__content {
+    width: 35.555%;
+}
+
+.about__title {
+    margin-bottom: 2.687rem;
+
+    color: #000000;
+
+    font-family: 'Popins', sans sans-serif;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 1.5;
+}
+
+.about__desc {
+    margin-bottom: 2.75rem;
+
+    color: #515151;
+
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 1.062rem;
+    line-height: 1.5;
+}
+
+.about__link {
+    padding: 0.812rem 1.5rem 0.812rem 1.5rem;
+    
+    color: #FFFFFF;
+    background-color: orange;
+    border: none;
+    
+    font-family: 'Popins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
