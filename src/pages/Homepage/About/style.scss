@@ -12,7 +12,14 @@
 }
 
 .about__image-container {
-    width: 50%;
+    position: relative;
+    width: 47%;
+
+    &::before {
+        content: '';
+        display: block;
+        padding-top: 74.961%;
+    }
 }
 
 .about__content {
