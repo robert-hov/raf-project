@@ -1,0 +1,40 @@
+.header__top {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.header__top-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__top-block {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__top-block:not(:last-child) {
+    margin-right: 6.25rem;
+}
+
+.header__top-icon {
+    height: 0.937rem;
+    width: 0.625rem;
+    
+    margin-right: 0.781rem;
+}
+
+.header__top-icon svg {
+    fill: blue;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header__top-text {
+    color: #000000;
+
+    font-family: 'Popins', sans-serif;
+    font-size: 0.625rem;
+    line-height: 0.937rem;
+}

@@ -28,5 +28,12 @@
 }
 
 .info__image-container {
-    flex-shrink: 0;
+    position: relative;
+    width: 92.564%;
+    
+    &::before {
+        content: '';
+        display: block;
+        padding-top: 49.492%;
+    }
 }

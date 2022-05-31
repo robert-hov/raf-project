@@ -1,6 +1,6 @@
 .footer {
-  padding-top: 4.125rem;
-  padding-bottom: 3.5rem;
+  padding-top: 3.687rem;
+  padding-bottom: 1.812rem;
 
   background-color: #1B1B1B;
   color: #ffffff;
@@ -10,8 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 86.111%;
-  margin: 0 auto;
+  padding-bottom: 3.937rem;
 }
 
 .footer__logo {
@@ -60,6 +59,8 @@
   align-self: flex-end;
   justify-content: space-between;
   flex-direction: row;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .footer__block-container .footer__block:first-child {
@@ -124,4 +125,22 @@
 
 .footer__icon:not(:last-child) {
   margin-right: 1rem;
+}
+
+.footer__line {
+  height: 0.8px;
+  width: 100%;
+
+  background-color: #FFFFFF;
+}
+
+.footer__bottom{
+  padding-top: 1.812rem;
+}
+
+.footer__bottom-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  text-align: center;
 }

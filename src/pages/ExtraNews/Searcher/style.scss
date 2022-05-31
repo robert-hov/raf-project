@@ -1,0 +1,25 @@
+
+.general {
+    justify-content: center;
+    display: flex;
+}
+
+.search {
+    position: relative;
+    width: max-content;
+}
+
+.search svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.562rem;
+}
+
+.form-inp {
+    padding: 0.593rem 1.25rem 0.593rem 3.678rem;
+
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 0.625rem;
+}

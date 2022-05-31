@@ -2,6 +2,10 @@ import React from 'react';
 import friends from "../../assets/img/heading/friends.png";
 import Heading from "../../components/Heading";
 import Loop from "../../components/Loop";
+import Boxes from '../About/Boxes';
+import Info from '../About/Info';
+import Team from '../About/Team'
+import Partners from './Partners';
 
 const About = () => {
     return (
@@ -14,6 +18,10 @@ const About = () => {
                 img={friends}
                 isSmall={true}
             />
+            <Boxes />
+            <Info />
+            <Team />
+            <Partners />
             <Loop isTitleShown={true}/>
         </>
     );
