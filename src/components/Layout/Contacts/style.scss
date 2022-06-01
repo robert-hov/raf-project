@@ -1,6 +1,10 @@
 .header__top {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+
+    @media (max-width: 560px) {
+        display: none;
+    }
 }
 
 .header__top-container {
@@ -19,22 +23,25 @@
 }
 
 .header__top-icon {
-    height: 0.937rem;
+    position: relative;
     width: 0.625rem;
-    
     margin-right: 0.781rem;
-}
 
-.header__top-icon svg {
-    fill: blue;
-    max-width: 100%;
-    max-height: 100%;
+    svg {
+        fill: rgba(0, 0, 0, 1)
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        padding-top: 150%;
+    }
 }
 
 .header__top-text {
     color: #000000;
 
-    font-family: 'Popins', sans-serif;
+
     font-size: 0.625rem;
     line-height: 0.937rem;
 }

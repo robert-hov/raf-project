@@ -1,30 +1,34 @@
 .info {
-    padding-top: 103px;
-    padding-bottom: 82.5px;
+    padding-top: 6.437rem;
+    padding-bottom: 5.156rem;
 }
 
 .info__title {
-    margin-bottom: 37.12px;
-
-    font-family: 'Popins', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 56.25px;
+    margin-top: 0;
+    margin-bottom: 2.32rem;
 
     border: none;
     color: #222222;
+
+
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 1.875;
+
 }
 
 .info__desc {
-    margin-bottom: 53.31px;
-
-    font-family: 'Popins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-
+    max-width: 54.017%;
+    margin-top: 0;
+    margin-bottom: 3.331rem;
     border: none;
+
     color: #525252;
+
+
+    font-size: 1rem;
+    line-height: 1.875;
+    font-weight: 400;
 }
 
 .info__image-container {

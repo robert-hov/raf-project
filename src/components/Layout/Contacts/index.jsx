@@ -3,26 +3,30 @@ import './style.scss';
 
 const Contacts = () => {
     return (
-        <div class="header__top">
-            <div class="page-container">
-                <div class="header__top-container">
-                    <a href="/" class="header__top-block">
-                        <span class="header__top-icon">
-                            <svg class="icon">
-                                <use xlinkHref="#location" />
-                            </svg>
+        <div className="header__top">
+            <div className="page-container">
+                <div className="header__top-container">
+                    <a href="/" className="header__top-block">
+                        <span className="header__top-icon">
+                            <span className="img-container">
+                                <svg className="icon">
+                                    <use xlinkHref="#location" />
+                                </svg>
+                            </span>
                         </span>
-                        <span class="header__top-text">
+                        <span className="header__top-text">
                             Company Address type here
                         </span>
                     </a>
-                    <a href="/" class="header__top-block">
-                        <span class="header__top-icon">
-                            <svg class="icon">
-                                <use xlinkHref="#telephone" />
-                            </svg>
+                    <a href="/" className="header__top-block">
+                        <span className="header__top-icon">
+                            <span className="img-container">
+                                <svg className="icon">
+                                    <use xlinkHref="#telephone"/>
+                                </svg>
+                            </span>
                         </span>
-                        <span class="header__top-text">
+                        <span className="header__top-text">
                             +94 000 00000
                         </span>
                     </a>
