@@ -9,8 +9,8 @@ html {
   font-size: 1.111vw;
   box-sizing: border-box;
 
-  @media (max-width: 560px) {
-    font-size: 2.857vw;
+  @media (max-width: 900px) {
+    font-size: max(13px, 2.857vw);
   }
 }
 
@@ -26,6 +26,13 @@ body {
 .page-container {
   width: 81.25%;
   margin: 0 auto;
+
+  @media (max-width: 900px) {
+    &-left--mobile {
+      width: 89.333%;
+      margin: 0 auto 0 0;
+    }
+  }
 }
 
 .page-container-big {

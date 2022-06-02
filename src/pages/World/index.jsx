@@ -1,5 +1,5 @@
 import React from "react";
-import Loop from "../../components/Loop";
+import Loop from "../../components/ContactMail";
 import Map from "../World/Map"
 import Personal from "../World/Personal"
 

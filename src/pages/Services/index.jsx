@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About";
 import Info from "./Info";
-import Loop from "../../components/Loop";
+import Loop from "../../components/ContactMail";
 import Lorem from "./Lorem";
 import Customer from "./Customer";
 

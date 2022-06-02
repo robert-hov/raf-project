@@ -8,30 +8,48 @@ import AvatarBlue from '../../../assets/img/info/Avatar-Blue.png';
 
 const Team = () => {
     return (
-        <section className="heading__team">
+        <section className="team">
             <div className="page-container">
-                <h1 className="team__title">Our Team</h1>
-                <div className="team__person">
-                    <div className="john__place">
-                        <img src={JohnPeter} className="john__image" alt="" />
-                        <h4 className="john__name">John Peter</h4>
-                        <h5 className="john__work">COO</h5>
-                    </div>
-                    <div className="john__place">
-                        <img src={BeverlyHills} className="john__image" alt="" />
-                        <h4 className="john__name">Beverly Hills</h4>
-                        <h5 className="john__work">COO</h5>
-                    </div>
-                    <div className="john__place">
-                        <img src={ClaudiaHeyes} className="john__image" alt="" />
-                        <h4 className="john__name">Claudia Heyes</h4>
-                        <h5 className="john__work">COO</h5>
-                    </div>
-                    <div className="john__place">
-                        <img src={AvatarBlue} className="john__image" alt="" />
-                        <h4 className="john__name">Avatar Blue</h4>
-                        <h5 className="john__work">COO</h5>
-                    </div>
+                <div className="team__container">
+                    <h1 className="team__title">Our Team</h1>
+                    <ul className="team__list">
+                        <li className="team__item">
+                            <div className="team__img-container">
+                                <div className="img-container">
+                                    <img src={JohnPeter} alt=""/>
+                                </div>
+                            </div>
+                            <h4 className="team__name">John Peter</h4>
+                            <h5 className="team__position">COO</h5>
+                        </li>
+                        <li className="team__item">
+                            <div className="team__img-container">
+                                <div className="img-container">
+                                    <img src={BeverlyHills} alt=""/>
+                                </div>
+                            </div>
+                            <h4 className="team__name">John Peter</h4>
+                            <h5 className="team__position">COO</h5>
+                        </li>
+                        <li className="team__item">
+                            <div className="team__img-container">
+                                <div className="img-container">
+                                    <img src={ClaudiaHeyes} alt=""/>
+                                </div>
+                            </div>
+                            <h4 className="team__name">John Peter</h4>
+                            <h5 className="team__position">COO</h5>
+                        </li>
+                        <li className="team__item">
+                            <div className="team__img-container">
+                                <div className="img-container">
+                                    <img src={AvatarBlue} alt=""/>
+                                </div>
+                            </div>
+                            <h4 className="team__name">John Peter</h4>
+                            <h5 className="team__position">COO</h5>
+                        </li>
+                    </ul>
                 </div>
             </div>
 

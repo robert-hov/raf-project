@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import Heading from "../../../components/Heading";
-import Loop from "../../../components/Loop";
+import Loop from "../../../components/ContactMail";
 
 const About = () => {
     return (

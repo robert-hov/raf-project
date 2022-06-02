@@ -1,18 +1,34 @@
-.heading__partnership {
+.partners {
     padding-top: 4.375rem;
     padding-bottom: 6.562rem;
 
-    background-color: #E5E5E5;
+    background-color: rgba(245, 245, 245, 1);
 }
 
-.partnership__desc{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 4.062rem;
+.partners__title {
+    margin-top: 0;
+    margin-bottom: 4.062rem;
 
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 1.562rem;
+    line-height: 1.5;
+    font-weight: 600;
 }
 
-.partners{
-    cursor: pointer;
+.partners__swiper {
+    .swiper-slide {
+        max-width: 11.022rem;
+    }
+}
+
+.partners__img-container {
+    position: relative;
+    max-width: 100%;
+
+    &::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
 }

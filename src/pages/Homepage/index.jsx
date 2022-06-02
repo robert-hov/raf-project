@@ -1,9 +1,9 @@
 import React from "react";
 import Heading from "../../components/Heading";
-import Info from "./Info";
 import About from "./About";
 import human from '../../assets/img/heading/human.png'
-import Loop from "../../components/Loop";
+import Loop from "../../components/ContactMail";
+import Culture from "./Culture";
 
 const Homepage = () => {
     return (
@@ -15,7 +15,7 @@ const Homepage = () => {
                 link={'/'}
                 img={human}
             />
-            <Info />
+            <Culture />
             <About />
             <Loop />
         </>

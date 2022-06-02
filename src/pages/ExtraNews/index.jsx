@@ -1,5 +1,5 @@
 import React from 'react';
-import Loop from "../../components/Loop";
+import Loop from "../../components/ContactMail";
 import Searcher from './Searcher';
 import JohnSmash from './JohnSmash';
 

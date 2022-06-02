@@ -1,9 +1,16 @@
 .footer {
-  padding-top: 3.687rem;
   padding-bottom: 1.812rem;
 
   background-color: #1B1B1B;
   color: #ffffff;
+}
+
+.footer__top {
+  padding-top: 3.687rem;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 }
 
 .footer__container {

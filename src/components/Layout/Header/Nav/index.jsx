@@ -1,42 +1,33 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import './style.scss';
 import {Link} from "react-router-dom";
+import {navData} from "../../../../data";
 
-const Nav = () => {
-    const [navActive, setNavActive] = useState(false);
-
-    const clickHandler = () => {
-        setNavActive(!navActive)
-    }
+const Nav = ({active, click}) => {
 
     return (
-        <nav className="nav">
-            <ul className={`nav__list${navActive ? ` nav__list--active` : ''}`}>
-                <li className="nav__item">
-                    <Link to="/" className='nav__link'>Home</Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/about-us" className='nav__link'>About Us</Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/services" className='nav__link'>Services</Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/extranews" className='nav__link'>News</Link>
-                </li>
+        <nav className={`nav${active ? ` nav--active` : ''}`}>
+            <button className='nav__close-btn' onClick={click}>
+                <span className="img-container">
+                    <svg className="icon">
+                      <use href="#close" />
+                    </svg>
+                </span>
+            </button>
+            <ul className={`nav__list`}>
+                {navData.map(item => {
+                    return (
+                        <li key={item.link} className="nav__item" onClick={click}>
+                            <Link to={item.link} className='nav__link'>{item.linkText}</Link>
+                        </li>
+                    )
+                })}
                 <li className="nav__item">
                     <Link to="World" className='nav__link'>
                         <button className="nav__btn">Contact Us</button>
                     </Link>
                 </li>
             </ul>
-            <button className="hamburger" onClick={clickHandler}>
-                <span className="img-container">
-                    <svg className="icon">
-                        <use xlinkHref="#hamburger" />
-                    </svg>
-                </span>
-            </button>
         </nav>
     )
 }

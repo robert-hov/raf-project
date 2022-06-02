@@ -1,16 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import './style.scss';
 import Nav from "./Nav";
 import Contacts from "../Contacts";
 
 const Header = () => {
+    const [active, setActive] = useState(false)
+    const clickHandler = () => {
+        setActive(!active)
+    }
     return (
         <>
-            <Contacts />
+            <Contacts/>
             <header className="header">
                 <div className="header__container">
                     <a href='/' className="header__logo">logo</a>
-                    <Nav />
+                    <Nav active={active} click={clickHandler}/>
                     <div className="header__popup ">
                         <div className="header__popup-wrapper">
                             <button className="header__popup-close-btn">
@@ -21,6 +25,13 @@ const Header = () => {
                             </h1>
                         </div>
                     </div>
+                    <button className="hamburger" onClick={clickHandler}>
+                        <span className="img-container">
+                            <svg className="icon">
+                                <use xlinkHref="#hamburger"/>
+                            </svg>
+                        </span>
+                    </button>
                 </div>
             </header>
         </>

@@ -1,9 +1,9 @@
-.loop {
+.contact-mail {
     padding-top: 4.562rem;
     padding-bottom: 12.562rem;
 }
 
-.loop__section-title {
+.contact-mail__title {
     margin-top: 0;
     margin-bottom: 2rem;
 
@@ -15,7 +15,7 @@
     font-weight: 600;
 }
 
-.loop__section-desc {
+.contact-mail__desc {
     margin-top: 0;
     margin-bottom: 4.625rem;
     max-width: 34.062rem;
@@ -27,7 +27,7 @@
     font-weight: 400;
 }
 
-.loop__wrapper{
+.contact-mail__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,11 +37,11 @@
     background-color: black;
 }
 
-.loop__div {
+.contact-mail__content {
     max-width: 44.358%;
 }
 
-.loop__title {
+.contact-mail__inner-title {
     margin-top: 0;
     margin-bottom: 0.625rem;
 
@@ -53,7 +53,7 @@
     line-height: 1.5;
 }
 
-.loop__desc {
+.contact-mail__inner-desc {
     margin-top: 0;
     margin-bottom: 0;
 
@@ -65,7 +65,7 @@
     line-height: 1.5;
 }
 
-.form{
+.contact-mail__form{
     position: relative;
     width: 32.905%;
 
@@ -73,7 +73,7 @@
     overflow: hidden;
 }
 
-.form-btn{
+.contact-mail__btn{
     position: absolute;
     top: 50%;
     right: 0.39rem;
@@ -94,12 +94,35 @@
     cursor: pointer;
 }
 
-.form-inp{
+.contact-mail__inp{
     width: 100%;
-    padding: 0.875rem 13.126rem 0.875rem 1.284rem;
+    padding: 0.875rem 1.284rem;
 
 
     font-size: 0.812rem;
     line-height: 1.5;
     font-weight: 300;
+}
+
+@media (max-width: 900px) {
+    .contact-mail__wrapper {
+        flex-direction: column;
+    }
+
+    .contact-mail__content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-mail__inner-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-mail__inner-desc {
+        margin-bottom: 2.687rem;
+    }
+
+    .contact-mail__form {
+        width: 100%;
+    }
 }
